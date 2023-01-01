@@ -13,12 +13,12 @@ jobs:
 
 
     steps:
-      - name: 'Before'
-        run: ls
+      # - name: 'Before'
+      #   run: ls
 
-      - name: 'Testing Printing'
-        run: echo Abdelrahman
+      # - name: 'Testing Printing'
+      #   run: echo Abdelrahman
 
       - uses: actions/checkout@v3
-      - name: 'Before'
-        run: ls
+      - name: 'Login to Docker hub'
+        run: docker login --username boodyshlby55 --password dckr_pat_EgYShzTOk37u3jzXtLYsbNg32PE
